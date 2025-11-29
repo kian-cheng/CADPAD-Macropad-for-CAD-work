@@ -24,7 +24,8 @@ Layout  <br />
 - 4X M3x6mm BHCS Bolts
 - 9x 1N4148 DO-35 Diodes.
 - 8x WS2812B LEDs
-- 1x 0.91" 128x32 OLED Display
+- 1x 0.91" 128x32 SSD 1306 OLED Display
 - 1x EC11 Rotary Encoder
 - 1x SEEED STUDIO XIAO RP2040
 - 1x Case (3 printed parts or 2 printed parts + 1 laser cut part) *Backplate can be made with acrylic.
+- 1x knob (3d printed) 
