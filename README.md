@@ -1,11 +1,11 @@
 # CADPAD-Macropad-for-CAD-work
 A macropad designed so that hotkeys can be used for various CAD software. Uses KMK. 
 
-##CAD:
+## CAD:
 <img width="1755" height="1625" alt="image" src="https://github.com/user-attachments/assets/599764ac-ca0e-4ce6-a1d9-692c6bfeec6d" />
 <img width="1640" height="1610" alt="image" src="https://github.com/user-attachments/assets/5232bbc2-ccfa-4470-82c5-6db76d4246cd" />
 
-##PCB:
+## PCB:
 Schematic
 <img width="3507" height="2480" alt="image" src="https://github.com/user-attachments/assets/341a2602-9a16-48d3-ad02-76e69eae04a0" />
 
