@@ -9,7 +9,7 @@ A macropad designed so that hotkeys can be used for various CAD software. Uses K
 Schematic
 <img width="3507" height="2480" alt="image" src="https://github.com/user-attachments/assets/341a2602-9a16-48d3-ad02-76e69eae04a0" />
 
-Layout \n
+Layout  <br />
 <img width="481" height="546" alt="image" src="https://github.com/user-attachments/assets/b7f49e74-78af-4686-94c5-c24b382a183e" />
 <img width="455" height="545" alt="image" src="https://github.com/user-attachments/assets/43ce5daf-30f3-4186-949f-2e39bbc83a96" />
 
