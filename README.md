@@ -12,7 +12,7 @@ Schematic
 Layout  <br />
 <img width="481" height="546" alt="image" src="https://github.com/user-attachments/assets/b7f49e74-78af-4686-94c5-c24b382a183e" />
 <img width="455" height="545" alt="image" src="https://github.com/user-attachments/assets/43ce5daf-30f3-4186-949f-2e39bbc83a96" />
-
+(image not updated with latest mini e led part change)
 <img width="665" height="709" alt="image" src="https://github.com/user-attachments/assets/6a029edd-cb6e-4fa8-a7ed-243ad0fb2b4d" />
 
 
@@ -23,7 +23,7 @@ Layout  <br />
 - 4x M3x6mm FHCS Bolts
 - 4X M3x6mm BHCS Bolts
 - 9x 1N4148 DO-35 Diodes.
-- 8x WS2812B LEDs
+- 8x WS2812 MINI E LEDs
 - 1x 0.91" 128x32 SSD 1306 OLED Display
 - 1x EC11 Rotary Encoder
 - 1x SEEED STUDIO XIAO RP2040
