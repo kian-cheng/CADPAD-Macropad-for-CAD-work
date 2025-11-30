@@ -11,8 +11,8 @@ Schematic
 
 Layout  <br />
 <img width="481" height="546" alt="image" src="https://github.com/user-attachments/assets/b7f49e74-78af-4686-94c5-c24b382a183e" />
-<img width="455" height="545" alt="image" src="https://github.com/user-attachments/assets/43ce5daf-30f3-4186-949f-2e39bbc83a96" />
-(image not updated with latest mini e led part change)
+<img width="455" height="545" alt="image" src="https://github.com/user-attachments/assets/43ce5daf-30f3-4186-949f-2e39bbc83a96" /> <br />
+(image not updated with latest mini e led part change) <br/>
 <img width="665" height="709" alt="image" src="https://github.com/user-attachments/assets/6a029edd-cb6e-4fa8-a7ed-243ad0fb2b4d" />
 
 
