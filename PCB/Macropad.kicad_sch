@@ -804,52 +804,27 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LED:SK6812MINI"
-			(pin_names
-				(offset 0.254)
-			)
+		(symbol "PCM_marbastlib-mx:MX_SK6812MINI-E"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "D"
-				(at 5.08 5.715 0)
+			(property "Reference" "LED"
+				(at 3.175 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right bottom)
 				)
 			)
-			(property "Value" "SK6812MINI"
-				(at 1.27 -5.715 0)
+			(property "Value" "MX_SK6812MINI-E"
+				(at 10.16 -6.985 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
-				(at 1.27 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-				(at 2.54 -9.525 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "RGB LED with integrated controller"
+			(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R"
 				(at 0 0 0)
 				(effects
 					(font
@@ -858,7 +833,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "RGB LED NeoPixel Mini addressable"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -867,7 +842,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*"
+			(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -876,7 +851,16 @@
 					(hide yes)
 				)
 			)
-			(symbol "SK6812MINI_0_0"
+			(property "ki_keywords" "reverse mount led revmount rgb"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MX_SK6812MINI-E_0_0"
 				(text "RGB"
 					(at 2.286 -4.191 0)
 					(effects
@@ -886,7 +870,18 @@
 					)
 				)
 			)
-			(symbol "SK6812MINI_0_1"
+			(symbol "MX_SK6812MINI-E_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
 						(xy 1.27 -2.54) (xy 1.778 -2.54)
@@ -971,19 +966,8 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start 5.08 5.08)
-					(end -5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 			)
-			(symbol "SK6812MINI_1_1"
+			(symbol "MX_SK6812MINI-E_1_1"
 				(pin input line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -1012,7 +996,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1030,7 +1014,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1048,7 +1032,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3751,6 +3735,80 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
+		(at 209.55 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02c21f84-1637-477c-aace-978ed13d5643")
+		(property "Reference" "LED7"
+			(at 224.79 116.7698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SK6812MINI-E"
+			(at 224.79 119.3098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R"
+			(at 209.55 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 209.55 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6d3e624e-6e2d-4700-b25e-f0d66ddd38b7")
+		)
+		(pin "1"
+			(uuid "2342be03-9e3d-48d5-9ac0-ed1bebac9043")
+		)
+		(pin "3"
+			(uuid "7a5fcc71-de95-4ce6-98bc-1cc2d93537bb")
+		)
+		(pin "4"
+			(uuid "0e1530f5-7006-4e2d-b00b-fa1d22494ea8")
+		)
+		(instances
+			(project "Macropad"
+				(path "/74979c29-d278-4ae1-945a-a208648bb688"
+					(reference "LED7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148")
 		(at 182.88 86.36 0)
 		(unit 1)
@@ -4120,158 +4178,6 @@
 			(project "Macropad"
 				(path "/74979c29-d278-4ae1-945a-a208648bb688"
 					(reference "SW3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:SK6812MINI")
-		(at 149.86 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "377655c9-bbd6-42eb-8d5a-96d6462de3c4")
-		(property "Reference" "D6"
-			(at 162.56 116.7698 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6812MINI"
-			(at 162.56 119.3098 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
-			(at 151.13 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 152.4 132.715 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 149.86 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "8766ab95-0e93-40b5-82da-c1036efe9a73")
-		)
-		(pin "1"
-			(uuid "e8015414-e0f1-4432-aee9-5c4d080cd6fc")
-		)
-		(pin "4"
-			(uuid "8dde413d-a7cd-4378-93a2-df26236f4fa7")
-		)
-		(pin "2"
-			(uuid "7ea9cab7-f3c3-469f-a7f9-4ff72f744eaa")
-		)
-		(instances
-			(project ""
-				(path "/74979c29-d278-4ae1-945a-a208648bb688"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:SK6812MINI")
-		(at 246.38 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3982afbb-d16b-4bbd-99c8-5a510076792c")
-		(property "Reference" "D17"
-			(at 259.08 116.7698 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6812MINI"
-			(at 259.08 119.3098 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
-			(at 247.65 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 248.92 132.715 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 246.38 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "370a4ac4-1496-4424-a6cf-0429725c2aba")
-		)
-		(pin "1"
-			(uuid "14a79be0-91d2-4fec-b9a0-e15a0616af28")
-		)
-		(pin "4"
-			(uuid "6bbfd38f-d83f-4eaf-90ff-b8e57e05f4ad")
-		)
-		(pin "2"
-			(uuid "ef758529-1728-45cf-8e0f-a714fc6f190a")
-		)
-		(instances
-			(project "Macropad"
-				(path "/74979c29-d278-4ae1-945a-a208648bb688"
-					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -4748,6 +4654,154 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
+		(at 246.38 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d45193f-27ff-484e-beb4-7fc666df2342")
+		(property "Reference" "LED8"
+			(at 261.62 116.7698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SK6812MINI-E"
+			(at 261.62 119.3098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R"
+			(at 246.38 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 246.38 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7f959068-d265-474a-b5ed-00f2081f25c3")
+		)
+		(pin "1"
+			(uuid "1fccbd55-1d23-4018-ac04-8b27abc86a86")
+		)
+		(pin "3"
+			(uuid "47c824b4-3b27-4cbb-8eaf-2c11d4fc577d")
+		)
+		(pin "4"
+			(uuid "0284efe0-79e1-4a01-b4f2-d501f1bac6dd")
+		)
+		(instances
+			(project "Macropad"
+				(path "/74979c29-d278-4ae1-945a-a208648bb688"
+					(reference "LED8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
+		(at 149.86 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f4c6957-6cee-494f-aadb-63d255ad5da6")
+		(property "Reference" "LED4"
+			(at 165.1 116.7698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SK6812MINI-E"
+			(at 165.1 119.3098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R"
+			(at 149.86 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 149.86 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e5f158a1-ca71-4f7b-b452-11065419a837")
+		)
+		(pin "1"
+			(uuid "771e9bed-2223-47ec-801f-8117a2b1f6ec")
+		)
+		(pin "3"
+			(uuid "58f4f41f-70f4-481c-89a8-4851054d9f52")
+		)
+		(pin "4"
+			(uuid "cc7b3e2d-af7d-4e09-8044-a294c5901890")
+		)
+		(instances
+			(project "Macropad"
+				(path "/74979c29-d278-4ae1-945a-a208648bb688"
+					(reference "LED4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 46.99 115.57 270)
 		(unit 1)
@@ -4961,82 +5015,6 @@
 			(project "Macropad"
 				(path "/74979c29-d278-4ae1-945a-a208648bb688"
 					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:SK6812MINI")
-		(at 168.91 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "720f4b12-6a0a-4126-a5ca-2cb90ee7e84b")
-		(property "Reference" "D13"
-			(at 181.61 116.7698 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6812MINI"
-			(at 181.61 119.3098 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
-			(at 170.18 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 171.45 132.715 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 168.91 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "0ae238fc-4f6b-448e-a222-cdb0d2c44ca1")
-		)
-		(pin "1"
-			(uuid "2fd7fa2d-9912-4d8b-abc6-f75e72280d64")
-		)
-		(pin "4"
-			(uuid "049a56f5-88ad-44f0-b389-46788b5534b9")
-		)
-		(pin "2"
-			(uuid "6e2a660e-15da-45b0-b71e-18e5e209f3cc")
-		)
-		(instances
-			(project "Macropad"
-				(path "/74979c29-d278-4ae1-945a-a208648bb688"
-					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -5342,53 +5320,33 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
-		(at 228.6 123.19 0)
+		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
+		(at 189.23 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7b37142b-28c2-458a-bd82-0d4166dae42a")
-		(property "Reference" "D16"
-			(at 241.3 116.7698 0)
+		(uuid "7e39aa44-d821-4d81-9356-a288db0ba398")
+		(property "Reference" "LED6"
+			(at 204.47 116.7698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 241.3 119.3098 0)
+		(property "Value" "MX_SK6812MINI-E"
+			(at 204.47 119.3098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
-			(at 229.87 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 231.14 132.715 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 228.6 123.19 0)
+		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R"
+			(at 189.23 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5396,22 +5354,40 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "04ee5ef3-1c33-4ba5-bd2e-42a0b6f155c8")
+		(property "Datasheet" ""
+			(at 189.23 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "1"
-			(uuid "d2be315b-ab31-4823-9d9a-830251d967f8")
-		)
-		(pin "4"
-			(uuid "3c75fc92-da71-4932-b185-6ba9ad19f260")
+		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 189.23 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "c6635166-f6b2-4b19-8bb0-f883f7a10c14")
+			(uuid "d2fc8d15-f8c9-4c97-9665-ab750c735cff")
+		)
+		(pin "1"
+			(uuid "2e146db0-470c-4548-aa19-ccedff7247c4")
+		)
+		(pin "3"
+			(uuid "69202048-ec92-4efb-8ed8-d813e2301882")
+		)
+		(pin "4"
+			(uuid "1a88d602-3b44-464a-bac9-f493c0927840")
 		)
 		(instances
 			(project "Macropad"
 				(path "/74979c29-d278-4ae1-945a-a208648bb688"
-					(reference "D16")
+					(reference "LED6")
 					(unit 1)
 				)
 			)
@@ -5504,6 +5480,80 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
+		(at 228.6 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "934ba850-0c60-4327-9fb7-24d0ea312466")
+		(property "Reference" "LED1"
+			(at 243.84 116.7698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SK6812MINI-E"
+			(at 243.84 119.3098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R"
+			(at 228.6 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 228.6 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "26f51135-d5e9-4cb5-bd2d-9f4a187e81af")
+		)
+		(pin "1"
+			(uuid "3c27d82e-c98c-4faa-98ca-df1745cc1490")
+		)
+		(pin "3"
+			(uuid "c5f0c0b9-711d-4c16-b82b-17341d2795aa")
+		)
+		(pin "4"
+			(uuid "44c0447f-8c69-4f75-95d1-e86780d9b30f")
+		)
+		(instances
+			(project ""
+				(path "/74979c29-d278-4ae1-945a-a208648bb688"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148")
 		(at 132.08 72.39 0)
 		(unit 1)
@@ -5590,158 +5640,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
-		(at 100.33 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "98d07b6b-5436-483b-ab65-70138b600008")
-		(property "Reference" "D1"
-			(at 113.03 116.7698 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6812MINI"
-			(at 113.03 119.3098 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
-			(at 101.6 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 102.87 132.715 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 100.33 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "26d3d251-d524-4d2c-9ebc-f2830b131cac")
-		)
-		(pin "4"
-			(uuid "9bf207e4-9f47-46d5-aaba-f3b6fdb9a496")
-		)
-		(pin "2"
-			(uuid "30589b3d-9b4e-4f17-a24f-65023fc31590")
-		)
-		(pin "1"
-			(uuid "6b7cc12b-b6cb-455b-b69b-dc0ba1e3bc9f")
-		)
-		(instances
-			(project ""
-				(path "/74979c29-d278-4ae1-945a-a208648bb688"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:SK6812MINI")
-		(at 209.55 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "99e46c04-5545-46da-a7c3-bf2109adcb44")
-		(property "Reference" "D15"
-			(at 222.25 116.7698 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6812MINI"
-			(at 222.25 119.3098 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
-			(at 210.82 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 212.09 132.715 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 209.55 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "bdb724fe-55c4-44dc-80b6-21d5f94df1e2")
-		)
-		(pin "1"
-			(uuid "dc7bfa1a-7514-465b-a9c4-2d182e769d17")
-		)
-		(pin "4"
-			(uuid "f711db83-7d50-4e1b-8484-81b0c9d3e9e0")
-		)
-		(pin "2"
-			(uuid "a08b7b05-367b-4f26-8f6f-e5027c855f57")
-		)
-		(instances
-			(project "Macropad"
-				(path "/74979c29-d278-4ae1-945a-a208648bb688"
-					(reference "D15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 167.64 86.36 0)
 		(unit 1)
@@ -5810,82 +5708,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
-		(at 189.23 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a276dfdd-e769-4df1-8dc9-0c781c811822")
-		(property "Reference" "D14"
-			(at 201.93 116.7698 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6812MINI"
-			(at 201.93 119.3098 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
-			(at 190.5 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 191.77 132.715 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 189.23 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "c9edd348-855b-4d17-ab9d-bcebc6565c12")
-		)
-		(pin "1"
-			(uuid "6da05ede-1d0a-473e-9bdf-97711eacdbe3")
-		)
-		(pin "4"
-			(uuid "c061c5d9-e54c-4771-b02d-46547b8c5c08")
-		)
-		(pin "2"
-			(uuid "93da6b65-34ef-4c51-b588-321062b4a4b4")
-		)
-		(instances
-			(project "Macropad"
-				(path "/74979c29-d278-4ae1-945a-a208648bb688"
-					(reference "D14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 194.31 72.39 0)
 		(unit 1)
@@ -5948,81 +5770,6 @@
 			(project "Macropad"
 				(path "/74979c29-d278-4ae1-945a-a208648bb688"
 					(reference "SW8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:SK6812MINI")
-		(at 125.73 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b88e2a43-3958-4a0e-861b-3af991061cc1")
-		(property "Reference" "D2"
-			(at 138.43 116.7698 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6812MINI"
-			(at 138.43 119.3098 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
-			(at 127 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 128.27 132.715 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 125.73 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "b9ceef71-1a73-4371-ad04-94bd80c9b3c2")
-		)
-		(pin "4"
-			(uuid "3dc9fe24-b554-4e02-9282-704c0acd2f7e")
-		)
-		(pin "2"
-			(uuid "6cf39a96-4a54-4684-99ea-6bfdc77660ea")
-		)
-		(pin "1"
-			(uuid "5daeea8e-13a2-4f1c-8f34-659fd297a202")
-		)
-		(instances
-			(project "Macropad"
-				(path "/74979c29-d278-4ae1-945a-a208648bb688"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -6164,6 +5911,154 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
+		(at 125.73 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbaf19da-9e29-4fdf-b561-a4841aa557ba")
+		(property "Reference" "LED3"
+			(at 140.97 116.7698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SK6812MINI-E"
+			(at 140.97 119.3098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R"
+			(at 125.73 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 125.73 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "146a4caa-6e28-4e5a-8de0-437f1b575cd3")
+		)
+		(pin "1"
+			(uuid "9d460663-173f-4211-b6e2-f8ba1f63daac")
+		)
+		(pin "3"
+			(uuid "12000cda-dba2-43fc-abcd-528d78194aa0")
+		)
+		(pin "4"
+			(uuid "e74f3792-0c9c-43dc-91bd-326950204df7")
+		)
+		(instances
+			(project "Macropad"
+				(path "/74979c29-d278-4ae1-945a-a208648bb688"
+					(reference "LED3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
+		(at 100.33 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbfd074e-cc92-4ed8-8209-695eb1abad20")
+		(property "Reference" "LED2"
+			(at 115.57 116.7698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SK6812MINI-E"
+			(at 115.57 119.3098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R"
+			(at 100.33 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 100.33 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "92314eff-8c11-414f-a894-31e2bd3fa79a")
+		)
+		(pin "1"
+			(uuid "3350024b-7c70-476f-bc08-d4d4aa8328db")
+		)
+		(pin "3"
+			(uuid "792d7355-293d-47ca-b754-ccd7df65fd42")
+		)
+		(pin "4"
+			(uuid "40b460d3-743f-4eda-893a-4fcf9bbecd13")
+		)
+		(instances
+			(project "Macropad"
+				(path "/74979c29-d278-4ae1-945a-a208648bb688"
+					(reference "LED2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148")
 		(at 132.08 86.36 0)
 		(unit 1)
@@ -6244,6 +6139,80 @@
 			(project "Macropad"
 				(path "/74979c29-d278-4ae1-945a-a208648bb688"
 					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
+		(at 168.91 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc7a808e-a9be-4942-9787-1bec2eabca53")
+		(property "Reference" "LED5"
+			(at 184.15 116.7698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SK6812MINI-E"
+			(at 184.15 119.3098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R"
+			(at 168.91 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 168.91 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ddda3b2a-4fce-4c95-a941-aeafaeb22595")
+		)
+		(pin "1"
+			(uuid "2632956e-6b35-4f90-8e2a-9cda9efd33ab")
+		)
+		(pin "3"
+			(uuid "9f1ccf33-4287-406d-a7c8-1b8bd70aa181")
+		)
+		(pin "4"
+			(uuid "ecfadaec-c05a-4704-9fc8-b519c0bb792b")
+		)
+		(instances
+			(project "Macropad"
+				(path "/74979c29-d278-4ae1-945a-a208648bb688"
+					(reference "LED5")
 					(unit 1)
 				)
 			)
