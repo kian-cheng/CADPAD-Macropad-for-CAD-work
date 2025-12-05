@@ -7,11 +7,13 @@ A macropad designed so that hotkeys can be used for various CAD software. Uses K
 
 ## PCB:
 Schematic
-<img width="3507" height="2480" alt="image" src="https://github.com/user-attachments/assets/341a2602-9a16-48d3-ad02-76e69eae04a0" />
+<img width="2473" height="1725" alt="image" src="https://github.com/user-attachments/assets/81c2c508-4217-49a9-84b4-6341da2a6889" />
+
 
 Layout  <br />
 <img width="481" height="546" alt="image" src="https://github.com/user-attachments/assets/b7f49e74-78af-4686-94c5-c24b382a183e" />
-<img width="455" height="545" alt="image" src="https://github.com/user-attachments/assets/43ce5daf-30f3-4186-949f-2e39bbc83a96" /> <br />
+<img width="1129" height="1354" alt="image" src="https://github.com/user-attachments/assets/48039b2e-20dc-4e80-807e-01e23d7d5219" />
+
 (image not updated with latest mini e led part change) <br/>
 <img width="665" height="709" alt="image" src="https://github.com/user-attachments/assets/6a029edd-cb6e-4fa8-a7ed-243ad0fb2b4d" />
 
